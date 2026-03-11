@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import logo from "./img/Logo MoviRD.png"
+import logo from "./img/logo-movird.png"
 
 export default function Home() {
     return ( <
@@ -8,20 +8,20 @@ export default function Home() {
         div className = "header" >
         <
         h1 > ¡Bienvenido a moviRD!👋 < /h1> <
-        p > Optimiza tu tiempo en tránsito < /p> <
-        /div>
+        p > Optimiza tu tiempo en tránsito < /p> < /
+        div >
 
         <
         img src = { logo }
-        alt = "moviRD"
+        alt = "MoviRD"
         className = "logo-img" / >
 
         <
         div className = "card hero" >
         <
         h2 > 🚗Encuentra la mejor ruta < /h2> <
-        p > Reduce tu tiempo de viaje con rutas optimizadas basadas en datos en tiempo real < /p> <
-        /div>
+        p > Reduce tu tiempo de viaje con rutas optimizadas basadas en datos en tiempo real < /p> < /
+        div >
 
         <
         div className = "stats" >
@@ -29,18 +29,18 @@ export default function Home() {
         div className = "card" >
         <
         p > Tiempo ahorrado < /p> <
-        h2 > 2, 450 hrs < /h2> <
-        /div> <
+        h2 > 2, 450 hrs < /h2> < /
+        div > <
         div className = "card" >
         <
         p > Rutas activas < /p> <
-        h2 > 158 < /h2> <
-        /div> <
+        h2 > 158 < /h2> < /
+        div > <
         div className = "card" >
         <
         p > Reducción < /p> <
-        h2 > 35 % < /h2> <
-        /div> <
+        h2 > 35 % < /h2> < /
+        div > <
         /div>
 
         <
@@ -51,9 +51,10 @@ export default function Home() {
         <
         p className = "text-center"
         style = {
-            { color: 'var(--gray)', marginTop: '16px' } } >
+            { color: 'var(--gray)', marginTop: '16px' }
+        } >
         +10, 000 viajes optimizados <
-        /p> <
-        /div>
+        /p> < /
+        div >
     )
 }
