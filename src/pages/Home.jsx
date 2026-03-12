@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom"
-import logo from "./img/logo-movird.png"
 
 export default function Home() {
     return ( <
@@ -12,7 +11,7 @@ export default function Home() {
         div >
 
         <
-        img src = { logo }
+        img src = "/img/logo-movird.png"
         alt = "MoviRD"
         className = "logo-img" / >
 
