@@ -4,6 +4,7 @@ import Home from "./pages/Home"
 import Search from "./pages/Search"
 import Profile from "./pages/Profile"
 import Navbar from "./components/Navbar"
+import Map from "./pages/Map"
 
 import "./styles.css"
 
@@ -19,7 +20,7 @@ function App() {
 
         <
         Routes >
-
+<Route path="/map" element={<Map />} />
         <
         Route path = "/"
         element = { < Home / > }

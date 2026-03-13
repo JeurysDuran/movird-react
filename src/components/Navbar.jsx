@@ -13,11 +13,14 @@ export default function Navbar() {
         Link to = "/search"
         className = { location.pathname === "/search" ? "active" : "" } >
         Buscar <
-        /Link> <
+        /Link> 
+       <
         Link to = "/profile"
         className = { location.pathname === "/profile" ? "active" : "" } >
         Perfil <
-        /Link> <
+        /Link> 
+        <
         /div>
+        
     )
 }
